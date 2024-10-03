@@ -1,0 +1,20 @@
+.signup {
+    background: 
+        linear-gradient(75deg,rgb(86 97 246 / 100%),rgb(255 0 0 / 0%) 100%),
+        linear-gradient(189deg, rgb(82 148 246 / 80%), rgb(0 255 0 / 0%) 30%),
+        linear-gradient(235deg, rgb(244 194 149 / 100%), rgb(202 87 209 / 100%) 70.71%);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
